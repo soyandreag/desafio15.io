@@ -1,0 +1,90 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #5f9ea0;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+    margin: 0;
+}
+
+.container-todo {
+    background-color: chocolate;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 10 px rgba(red, green, blue, alpha);
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    color: white;
+    background-color: rgb(124, 84, 154);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(171, 140, 204);
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border-bottom: 1px solid #5b3d81;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: rgba(89, 88, 139, 0.379);
+}
+
+.completed {
+    color: rgba(59, 104, 239, 0.594);
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: darkred;
+    font-size: 20px;
+    }
+
+.delete-btn:hover {
+    color: lawngreen;
+}   
+
+.summary {
+    margin-top: 20px;
+}
+
+.summary p {
+    font-size: 15px;
+}
+
+td {
+    vertical-align: middle;
+}
